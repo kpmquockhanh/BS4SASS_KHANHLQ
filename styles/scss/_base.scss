@@ -1,0 +1,49 @@
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+}
+#cover{
+	background: #222 url('../img/stars.jpg') center center no-repeat;
+	background-size: cover;
+	color: white;
+	height:100%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+
+#cover-caption{
+	width: 100%;
+
+}
+.carousel-indicators li{
+	width: 0.7rem;
+	height: 0.7rem;
+	margin-right: 1rem;
+	border-radius: 50%;
+}
+.carousel-indicators li:last-child{
+	margin-right: 0px;
+}
+.section-content{
+	padding: 8rem 0;
+}
+#about-me{
+	background: #222 url('../img/girlincar.jpg') center center no-repeat;
+	background-size: cover;
+}
+.about-text{
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+	padding: 1rem;
+}
+#footer-main{
+	background-color: #222;
+	color: white;
+	padding: 2.875rem;
+}
+.card-body{
+	flex: unset;
+}

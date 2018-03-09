@@ -1,0 +1,20 @@
+{
+  "name": "BS4ResponsiveSite_KHANHLQ",
+  "homepage": "https://github.com/kpmquockhanh/BS4ResponsiveSite_KHANHLQ",
+  "authors": [
+    "Khánh Quốc <kpmquockhanh@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  }
+}
