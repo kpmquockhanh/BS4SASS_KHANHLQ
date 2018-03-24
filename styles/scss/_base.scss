@@ -3,6 +3,8 @@ html{
 }
 body{
 	height: 100%;
+	margin: 0px;
+	padding: 0px;
 }
 #cover{
 	background: #222 url('../../img/stars.jpg') center center no-repeat;
@@ -38,11 +40,21 @@ body{
 	background-color: rgba(0,0,0,0.8);
 	color: white;
 	padding: 1rem;
+	a{
+		color: #ccc;
+		background-color: transparent;
+		border-color: #ccc;
+		&:hover{
+			color: #fff;
+    		background-color: #ccc;
+		}
+	}
 }
 #footer-main{
 	background-color: #222;
 	color: white;
 	padding: 2.875rem;
+
 }
 .card-body{
 	flex: unset;

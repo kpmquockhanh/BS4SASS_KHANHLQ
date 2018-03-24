@@ -49,7 +49,7 @@
 // Mixin
 
 @import "root";
-// @import "reboot";
+@import "reboot";
 @import "type";
 // @import "images";
 // @import "code";
@@ -97,5 +97,5 @@
 @import "utilities/visibility";
 
 // ---------
-@import "print";
+// @import "print";
 @import "base";
